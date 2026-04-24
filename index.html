@@ -15,12 +15,19 @@
       position="0.000  -1.727 -2.000"
       rotation="-90 0 0"
       ></a-entity>
+
       <a-entity 
-      ply-model="src:sheep.ply"
-      position="0.000 -1.727 -2,000"
-      rotation="-90 0 0"
+      ply-model="src:sheep.ply" position="0.000 -1.727 -2,000" rotation="-90 0 0"
+      animation="
+      property: position;
+      from: -0.046 -1.727 -2.000;
+       to: 2.052 -1.727  2.000;
+       dur: 1000;
+       loop: true;
+       dir: alternate;
+       "
       ></a-entity>
+      </a-scene>
       
-    </a-scene>
   </body>
 </html>
